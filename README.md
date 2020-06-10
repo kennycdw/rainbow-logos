@@ -61,7 +61,7 @@ git installed, run this on your command prompt.
 
 Once done, you need to install several packages before running the programme.
 
-    cd pride-rainbow
+    cd rainbow-logos
     pip install -r requirements.txt
     
 Run the code! Insert your image into the input_directory folder. Your output will be saved into the output_directory folder.
