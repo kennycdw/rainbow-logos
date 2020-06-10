@@ -3,6 +3,7 @@
 Convert company or brand logos colours into rainbow (pride) colours! This was inspired by Pride Month.
 
 ![alt text](screenshots/figure11.png)
+<p align="center">Figure 1.1</p>
 
 The objective has always been learning and code readability for this pet project. I have tried to be as detailed without being too detailed in the comments. While classes are more elegant, functions are easier to understand so the entire project is broken into functions. If you are unsure why I wrote a certain line or would like to provide feedback, feel free to reach out at my email at **dewei274@gmail.com** or through my LinkedIn profile. Thank you for reading! 
 
@@ -22,8 +23,8 @@ The objective has always been learning and code readability for this pet project
 
 | Function  | Brief Explanation |
 | ------------- | ------------------ |
-| convert_alpha_to_white  | Convert pixels with alpha channel into white image for visualization  |
-| convert_src_to_alpha | Converts images with opaque background into transparent image |
+| convert_alpha_to_white  | Remove alpha channel (to white background) for visualization  |
+| convert_src_to_alpha | Converts images with opaque (white) background into transparent image |
 | generate_rainbow_codes | Generate a list of bgr/rgb codes from hex codes |
 | detect_optimal_angle| Detect optimal angles starting from vertical line (clockwise) |
 | find_colour_breakdown | Find the most common colour |
@@ -56,7 +57,7 @@ This project requires a Python (>=3.6). This is because I use f-strings in the p
 If you are new, you can click on "Clone or download" on top, download the ZIP file and save it on your computer. If you already have
 git installed, run this on your command prompt.
 
-    git clone https://github.com/kennycdw/darknet.git
+    git clone https://github.com/kennycdw/rainbow-logos.git
 
 Once done, you need to install several packages before running the programme.
 
@@ -67,7 +68,7 @@ Run the code! Insert your image into the input_directory folder. Your output wil
 
     python rainbow-logos.py adidas.png
 
-Reach out if you faced any difficulties, happy to help out especially if you are just starting out!
+Reach out to me if you faced any difficulties, happy to help out especially if you are just starting out!
 
 ## some limitations
 
